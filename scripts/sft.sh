@@ -3,9 +3,9 @@
 
 cd LlamaFactory
 
-pretrained_model=MiMT-46-12B-Pretrain
+pretrained_model=MiLMMT-46-12B-Pretrain
 outputs=checkpoints
-dataset_name=MiMT-46-SFT  # Add a dataset description to dataset_info.json before training to enable its use.
+dataset_name=MiLMMT-46-SFT  # Add a dataset description to dataset_info.json before training to enable its use.
 
 
 llamafactory-cli train \
