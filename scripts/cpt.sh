@@ -5,7 +5,7 @@ cd LlamaFactory
 
 pretrained_model=Gemma3-12B
 outputs=checkpoints
-dataset_name=GEMMAX3-46-CPT  # Add a dataset description to dataset_info.json before training to enable its use.
+dataset_name=MiLMMT-46-CPT  # Add a dataset description to dataset_info.json before training to enable its use.
 
 
 llamafactory-cli train \
