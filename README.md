@@ -126,13 +126,25 @@ If you find the resources in this repository helpful, please cite as:
 ```
 
 ```
-@misc{cui2025multilingualmachinetranslationopen,
-      title={Multilingual Machine Translation with Open Large Language Models at Practical Scale: An Empirical Study}, 
-      author={Menglong Cui and Pengzhi Gao and Wei Liu and Jian Luan and Bin Wang},
-      year={2025},
-      eprint={2502.02481},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.02481}, 
+@inproceedings{cui-etal-2025-multilingual,
+    title = "Multilingual Machine Translation with Open Large Language Models at Practical Scale: An Empirical Study",
+    author = "Cui, Menglong  and
+      Gao, Pengzhi  and
+      Liu, Wei  and
+      Luan, Jian  and
+      Wang, Bin",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.280/",
+    doi = "10.18653/v1/2025.naacl-long.280",
+    pages = "5420--5443",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Large language models (LLMs) have shown continuously improving multilingual capabilities, and even small-scale open-source models have demonstrated rapid performance enhancement. In this paper, we systematically explore the abilities of open LLMs with less than ten billion parameters to handle multilingual machine translation (MT) tasks. We conduct comprehensive evaluations on six popular LLMs and find that models like Gemma2-9B exhibit impressive multilingual translation capabilities. We then introduce the Parallel-First Monolingual-Second (PFMS) data mixing strategy in the continual pretraining stage to further enhance the MT performance and present GemmaX2-28, a 9B model achieving top-tier multilingual translation performance across 28 languages. Specifically, GemmaX2-28 consistently outperforms the state-of-the-art (SOTA) models such as TowerInstruct and X-ALMA and achieves competitive performance with Google Translate and GPT-4-turbo."
 }
 ```
