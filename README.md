@@ -16,7 +16,7 @@
 
 Model checkpoints are released at huggingface:
 
-#### GemmaX2-28 Models
+### GemmaX2-28 Models
 
 | Models                                                                             | Descriptions                                                                                      |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ Model checkpoints are released at huggingface:
 **Note that GemmaX2-28-2B-Pretrain and GemmaX2-28-9B-Pretrain are NOT translation models.**
 
 
-#### MiLMMT-46 Models
+### MiLMMT-46 Models
 
 | Models                                                                              | Descriptions                                                                                           |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
