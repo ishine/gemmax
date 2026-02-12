@@ -42,7 +42,7 @@ Model checkpoints are released at huggingface:
 | [MiLMMT-46-12B-Pretrain](https://huggingface.co/xiaomi-research/MiLMMT-46-12B-Pretrain) | Developed through continual pretraining of [Gemma3-12B](https://huggingface.co/google/gemma-3-12b-pt). |
 | [MiLMMT-46-12B-v0.1](https://huggingface.co/xiaomi-research/MiLMMT-46-12B-v0.1)     | Finetuned on MiLMMT-46-12B-Pretrain with translation instructions.                                       |
 
-**Note that MiLMMT-46-1B-Pretrain, MiLMMT-46-4B-Pretrain and MiLMMT-46-12B-Pretrain are NOT translation models.**
+**Note that MiLMMT-46-1B-Pretrain, MiLMMT-46-4B-Pretrain, and MiLMMT-46-12B-Pretrain are NOT translation models.**
 
 
 ## Supported Languages
