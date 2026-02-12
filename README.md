@@ -31,6 +31,18 @@ Model checkpoints are released at huggingface:
 **Note that GemmaX2-28-2B-Pretrain and GemmaX2-28-9B-Pretrain are NOT translation models.**
 
 
+#### MiLMMT-46 Models
+
+| Models                                                                              | Descriptions                                                                                           |
+|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [MiMT-46-1B-Pretrain]()   | Developed through continual pretraining of [Gemma3-1B](https://huggingface.co/google/gemma-3-1b-pt).  |
+| [MiMT-46-1B-v0.1]()       | Finetuned on MiMT-46-1B-Pretrain with translation instructions.                                       |
+| [MiMT-46-4B-Pretrain]()   | Developed through continual pretraining of [Gemma3-4B](https://huggingface.co/google/gemma-3-4b-pt).  |
+| [MiMT-46-4B-v0.1]()       | Finetuned on MiMT-46-4B-Pretrain with translation instructions.                                       |
+| [MiMT-46-12B-Pretrain]() | Developed through continual pretraining of [Gemma3-12B](https://huggingface.co/google/gemma-3-12b-pt). |
+| [MiMT-46-12B-v0.1]()     | Finetuned on MiMT-46-12B-Pretrain with translation instructions.                                       |
+
+
 ## Supported Languages
 
 GemmaX2-28 models support 28 languages: Arabic, Bengali, Czech, German, English, Spanish, Persian, French, Hebrew, Hindi, Indonesian, Italian, Japanese, Khmer, Korean, Lao, Malay, Burmese, Dutch, Polish, Portuguese, Russian, Thai, Tagalog, Turkish, Urdu, Vietnamese, Chinese.
