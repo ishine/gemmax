@@ -69,7 +69,7 @@ Please use the language name specified above in the translation prompt.
 from vllm import LLM, SamplingParams
 
 
-model_id = "xiaomi-research/GemmaX2-28-2B-v0.2"
+model_id = "xiaomi-research/MiLMMT-46-12B-v0.1"
 
 model = LLM(model=model_id)
 sampling_params = SamplingParams(top_k=1, temperature=0, max_tokens=2048)
@@ -85,7 +85,7 @@ print(outputs[0].outputs[0].text)
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-model_id = "xiaomi-research/GemmaX2-28-2B-v0.2"
+model_id = "xiaomi-research/MiLMMT-46-12B-v0.1"
 
 model = AutoModelForCausalLM.from_pretrained(model_id)
 tokenizer = AutoTokenizer.from_pretrained(model_id)
