@@ -122,7 +122,15 @@ bash scripts/sft.sh
 ## Reference
 If you find the resources in this repository helpful, please cite as:
 ```
-
+@misc{shang2026scalingmodeldatamultilingual,
+      title={Scaling Model and Data for Multilingual Machine Translation with Open Large Language Models}, 
+      author={Yuzhe Shang and Pengzhi Gao and Wei Liu and Jian Luan and Jinsong Su},
+      year={2026},
+      eprint={2602.11961},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.11961}, 
+}
 ```
 
 ```
